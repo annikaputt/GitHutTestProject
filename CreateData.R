@@ -19,7 +19,5 @@ points(fishes$index,fishes$redfish,col="red",pch=19)
 points(fishes$index,fishes$greenfish,col="green",pch=19)
 mtext(side=1,text="Index",line=3)
 mtext(side=2,text="Fish Count",line=3)
+ 
 
-
-# Create some text I might want to get rid of
-# Another line
