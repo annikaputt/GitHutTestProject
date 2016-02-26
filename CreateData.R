@@ -19,6 +19,4 @@ points(fishes$index,fishes$redfish,col="red",pch=19)
 points(fishes$index,fishes$greenfish,col="green",pch=19)
 mtext(side=1,text="Index",line=3)
 mtext(side=2,text="Fish Count",line=3)
- 
-# Added a new line of text in the testbranch and then merged with the master.
-# This line was added through a fork/clone.
+  
