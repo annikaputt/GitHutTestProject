@@ -10,6 +10,9 @@
 # Author: A Putt
 ############################
 
+require(dplyr)
+require(magrittr)
+
 # Make some data
 fishes <- data.frame(index = 1:10, redfish = rnorm(10,20,5), bluefish = rnorm(10,10,3), greenfish = rnorm(10,10,10))
 
@@ -19,3 +22,7 @@ points(fishes$index,fishes$redfish,col="#fc9272",pch=19)
 points(fishes$index,fishes$greenfish,col="#fee0d2",pch=19)
 mtext(side=1,text="Index",line=3)
 mtext(side=2,text="makeconflict")
+
+x<- fishes%>%
+  group_by(index)%>%
+  mutate(sum=sum(redfish,bluefish,greenfish))
