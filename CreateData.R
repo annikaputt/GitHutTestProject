@@ -18,5 +18,5 @@ plot(fishes$index,fishes$bluefish,col="blue",pch=19,xlab="",ylab="",ylim=c(0,30)
 points(fishes$index,fishes$redfish,col="red",pch=19)
 points(fishes$index,fishes$greenfish,col="green",pch=19)
 mtext(side=1,text="Index",line=3)
-mtext(side=2,text="Fish Count",line=3)
+mtext(side=2,text="Counts of Fishes",line=3)
   
