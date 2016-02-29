@@ -37,3 +37,5 @@ points(fishes$index,fishes$redfish,col="#fc9272",type="b",pch=19,cex=1.5)
 points(fishes$index,fishes$greenfish,col="#fee0d2",type="b",pch=19,cex=1.5)
 mtext(side=1,text="Index of Doug",line=3)
 mtext(side=2,text="Doug's fish counts")
+
+dafasdfda
