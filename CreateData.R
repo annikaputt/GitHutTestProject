@@ -23,6 +23,9 @@ points(fishes$index,fishes$greenfish,col="#fee0d2",pch=19)
 mtext(side=1,text="Index",line=3)
 mtext(side=2,text="makeconflict")
 
+
 x<- fishes%>%
   group_by(index)%>%
   mutate(sum=sum(redfish,bluefish,greenfish))
+
+print("confusing")
