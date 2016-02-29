@@ -1,0 +1,16 @@
+{
+    "contents" : "############################\n# CreateData.r\n# Project: GitHubTestProject.Rproj\n\n# File description: A file that creates a small data set and calculates some statistics\n\n# Created: January 4, 2016\n# R Version: 3.2.0\n# GitHub: Yes\n# Author: A Putt\n############################\n\n# Make some data\nfishes <- data.frame(index = 1:10, redfish = rnorm(10,20,5), bluefish = rnorm(10,10,3), greenfish = rnorm(10,10,10))\n\n# Plot the data\nplot(fishes$index,fishes$bluefish,col=\"#de2d26\",pch=19,xlab=\"\",ylab=\"\",ylim=c(0,30),las=1)\npoints(fishes$index,fishes$redfish,col=\"#fc9272\",pch=19)\npoints(fishes$index,fishes$greenfish,col=\"#fee0d2\",pch=19)\nmtext(side=1,text=\"Index\",line=3)\nmtext(side=2,text=\"Fish Count\",line=3)\n############################\n# CreateData.r\n# Project: GitHubTestProject.Rproj\n\n# File description: A file that creates a small data set and calculates some statistics\n\n# Created: January 4, 2016\n# R Version: 3.2.0\n# GitHub: Yes\n# Author: A Putt\n############################\n\n# Make some data\nfishes <- data.frame(index = 1:10, redfish = rnorm(10,20,5), bluefish = rnorm(10,10,3), greenfish = rnorm(10,10,10))\n\n# Plot the data\nplot(fishes$index,fishes$bluefish,col=\"#de2d26\",pch=19,xlab=\"\",ylab=\"\",ylim=c(0,30),las=1)\npoints(fishes$index,fishes$redfish,col=\"#fc9272\",pch=19)\npoints(fishes$index,fishes$greenfish,col=\"#fee0d2\",pch=19)\nmtext(side=1,text=\"Index\",line=3)\nmtext(side=2,text=\"makeconflict\")\n\n#Doug\n# Plot the data\nplot(fishes$index,fishes$bluefish,col=\"#de2d26\",type=\"b\",pch=19,xlab=\"\",ylab=\"\",ylim=c(0,30),las=1,cex=1.5)\npoints(fishes$index,fishes$redfish,col=\"#fc9272\",type=\"b\",pch=19,cex=1.5)\npoints(fishes$index,fishes$greenfish,col=\"#fee0d2\",type=\"b\",pch=19,cex=1.5)\nmtext(side=1,text=\"Index of Doug\",line=3)\nmtext(side=2,text=\"Doug's fish counts\")",
+    "created" : 1456784272277.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1914226623",
+    "id" : "87A1898F",
+    "lastKnownWriteTime" : 1456786284,
+    "path" : "~/Desktop/GitHutTestProject.git/CreateData.R",
+    "project_path" : "CreateData.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
